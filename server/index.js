@@ -16,7 +16,6 @@ app.use(bodyParser.json());
 const MAX_ATTENDANTS = 3;
 const MAX_SIMULTANEOUS_ATTENDANCES = 3;
 
-// Team initialization
 const teams = {
   Cartões: {
     attendants: Array(MAX_ATTENDANTS).fill(null),
